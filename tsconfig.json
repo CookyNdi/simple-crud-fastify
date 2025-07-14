@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "src/types"], 
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    "allowJs": false,
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "importHelpers": false,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./*"],
+      "*": ["node_modules/*", "src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.json", ".env", "src/types/**/*.d.ts"],
+  "exclude": ["node_modules", "src/http", "src/logs"],
+  "extends": "@tsconfig/node16/tsconfig.json"
+}
