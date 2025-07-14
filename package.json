@@ -2,7 +2,7 @@
 	"name": "backend",
 	"version": "1.0.0",
 	"description": "Rikuya-Thing-Backend is a backend application built with [Fastify](https://www.fastify.io/) and TypeScript. This project is designed to provide a modular and scalable structure.",
-	"main": "index.js",
+	"main": "index.ts",
 	"scripts": {
 		"build": "tsc && tsc-alias",
 		"dev": "npx nodemon",
